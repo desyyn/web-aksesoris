@@ -23,7 +23,7 @@ class ProdukModel extends Model
 
     // KOLOM YANG BOLEH DIISI (PENTING!)
     // Ini harus sesuai dengan kolom yang kamu buat di Migration
-    protected $allowedFields    = ['nama_produk', 'harga', 'deskripsi', 'gambar'];
+    protected $allowedFields = ['nama_produk', 'kategori', 'harga', 'deskripsi', 'gambar'];
 
     // Mengaktifkan fitur created_at dan updated_at otomatis
     protected $useTimestamps = true;
